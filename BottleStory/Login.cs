@@ -20,6 +20,17 @@ namespace BottleStory {
             string username = textBox1.Text.Trim();
             string password = textBox2.Text.Trim();
             string loginResult = DBHelper.login(username, password);
+            if (loginResult == "admin") {
+                new AdminDashboard().Show();
+            }
+            if (loginResult == "user") {
+                new ClientDashboard().Show();
+            }
+            if (loginResult == "Username not found!") {
+                label3.Text = loginResult;
+            } else if (loginResult == "Incorrect password!") {
+                label3.Text = loginResult;
+            }
         }
     }
 }

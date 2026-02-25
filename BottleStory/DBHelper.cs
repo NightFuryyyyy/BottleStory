@@ -8,19 +8,20 @@ namespace StudentInfoSystem {
         }
 
         public static string login(string username, string password) {
-            string sqlQuery = "SELECT username, passwordHash, type FROM users where username = @username";
+            string sqlQuery = "SELECT username, passwordHash, accountType FROM users where username = @username";
             using (SqlConnection conn = GetConnection()) {
                 using (SqlCommand cmd = new SqlCommand(sqlQuery, conn)) {
                     cmd.Parameters.AddWithValue("@username", username);
                     conn.Open();
                     using (SqlDataReader rdr = cmd.ExecuteReader()) {
+
                         if (!rdr.Read()) {
-                            return "invalidUsername";
+                            return "Username not found!";
                         }
                         if (BCrypt.Net.BCrypt.EnhancedVerify(password, rdr.GetString(rdr.GetOrdinal("passwordHash")))) {
-                            return rdr.GetString(rdr.GetOrdinal("type"));
+                            return rdr.GetString(rdr.GetOrdinal("accountType"));
                         } else {
-                            return "incorrectPassword";
+                            return "Incorrect password!";
                         }
                     }
                 }
