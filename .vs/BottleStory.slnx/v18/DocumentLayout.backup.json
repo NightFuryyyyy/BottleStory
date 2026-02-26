@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|c:\\users\\thejus\\source\\repos\\bottlestory\\bottlestory\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|c:\\users\\thejus\\source\\repos\\bottlestory\\bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|C:\\Users\\Thejus\\source\\repos\\BottleStory\\bottlestory\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|C:\\Users\\Thejus\\source\\repos\\BottleStory\\bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,15 +23,7 @@
       "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|C:\\Users\\Thejus\\source\\repos\\BottleStory\\bottlestory\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|C:\\Users\\Thejus\\source\\repos\\BottleStory\\bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|c:\\users\\thejus\\source\\repos\\bottlestory\\bottlestory\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|C:\\Users\\Thejus\\source\\repos\\BottleStory\\bottlestory\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8721CE7E-85C8-4E88-AF51-82EE48960E9A}|BottleStory\\BottleStory.csproj|solutionrelative:bottlestory\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,32 +50,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "BottleStory\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "BottleStory\\AdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T07:47:09.996Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.Designer.cs",
               "RelativeDocumentMoniker": "BottleStory\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.Designer.cs*",
-              "RelativeToolTip": "BottleStory\\Login.Designer.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.Designer.cs",
+              "RelativeToolTip": "BottleStory\\Login.Designer.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAqwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T05:02:15.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Login.resx",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.resx",
               "RelativeDocumentMoniker": "BottleStory\\Login.resx",
-              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.resx*",
-              "RelativeToolTip": "BottleStory\\Login.resx*",
+              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.resx",
+              "RelativeToolTip": "BottleStory\\Login.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-02-25T05:02:14.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DBHelper.cs",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\DBHelper.cs",
               "RelativeDocumentMoniker": "BottleStory\\DBHelper.cs",
@@ -79,17 +95,16 @@
               "RelativeToolTip": "BottleStory\\DBHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T04:59:35.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-25T04:59:35.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs",
               "RelativeDocumentMoniker": "BottleStory\\Login.cs",
-              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs*",
-              "RelativeToolTip": "BottleStory\\Login.cs*",
+              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs",
+              "RelativeToolTip": "BottleStory\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T04:58:47.018Z",
@@ -97,26 +112,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs",
               "RelativeDocumentMoniker": "BottleStory\\Login.cs",
-              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs [Design]*",
-              "RelativeToolTip": "BottleStory\\Login.cs [Design]*",
+              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\Login.cs [Design]",
+              "RelativeToolTip": "BottleStory\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T05:02:56.586Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "users.sql",
               "DocumentMoniker": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\users.sql",
               "RelativeDocumentMoniker": "BottleStory\\users.sql",
-              "ToolTip": "C:\\Users\\Thejus\\source\\repos\\BottleStory\\BottleStory\\users.sql",
-              "RelativeToolTip": "BottleStory\\users.sql",
+              "ToolTip": "users.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-02-25T02:59:48.942Z"
+              "WhenOpened": "2026-02-25T02:59:48.942Z",
+              "EditorCaption": ""
             }
           ]
         }
