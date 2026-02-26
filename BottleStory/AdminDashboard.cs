@@ -20,19 +20,22 @@ namespace BottleStory {
 
         }
 
-        private void btnNavDash_Click(object sender, EventArgs e)
-        {
+        private void btnNavDash_Click(object sender, EventArgs e) {
             panel1.Size = panelSize;
             panel1.Visible = true;
             panel2.Visible = false;
         }
 
-        private void btnNavOrders_Click(object sender, EventArgs e)
-        {
+        private void btnNavOrders_Click(object sender, EventArgs e) {
             panel2.Size = panelSize;
             panel2.Location = panel1.Location;
             panel2.Visible = true;
             panel1.Visible = false;
+        }
+
+        private void AdminDashboard_Load(object sender, EventArgs e) {
+            panel1.Size = panelSize;
+            panel1.Visible = true;
         }
     }
 }

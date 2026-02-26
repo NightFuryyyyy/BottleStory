@@ -21,10 +21,20 @@ namespace BottleStory {
             string password = textBox2.Text.Trim();
             string loginResult = DBHelper.login(username, password);
             if (loginResult == "admin") {
-                new AdminDashboard().Show();
+                textBox1.Text = "";
+                textBox2.Text = "";
+                Hide();
+                AdminDashboard adminDashboard = new AdminDashboard();
+                adminDashboard.FormClosed += (s, argd) => Show();
+                adminDashboard.Show();
             }
             if (loginResult == "user") {
-                new ClientDashboard().Show();
+                textBox1.Text = "";
+                textBox2.Text = "";
+                Hide();
+                ClientDashboard clientDashboard = new ClientDashboard();
+                clientDashboard.FormClosed += (s, argd) => Show();
+                clientDashboard.Show();
             }
             if (loginResult == "Username not found!") {
                 label3.Text = loginResult;

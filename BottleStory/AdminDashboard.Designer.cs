@@ -111,7 +111,7 @@
             this.lblBrand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(154)))), ((int)(((byte)(77)))));
             this.lblBrand.Location = new System.Drawing.Point(20, 30);
             this.lblBrand.Name = "lblBrand";
-            this.lblBrand.Size = new System.Drawing.Size(172, 74);
+            this.lblBrand.Size = new System.Drawing.Size(137, 60);
             this.lblBrand.TabIndex = 4;
             this.lblBrand.Text = "Bottle Story\nBusiness";
             // 
@@ -132,7 +132,7 @@
             this.lblCard1Value.ForeColor = System.Drawing.Color.White;
             this.lblCard1Value.Location = new System.Drawing.Point(10, 45);
             this.lblCard1Value.Name = "lblCard1Value";
-            this.lblCard1Value.Size = new System.Drawing.Size(206, 54);
+            this.lblCard1Value.Size = new System.Drawing.Size(164, 45);
             this.lblCard1Value.TabIndex = 0;
             this.lblCard1Value.Text = "₹1,45,500";
             // 
@@ -143,7 +143,7 @@
             this.lblCard1Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(154)))), ((int)(((byte)(77)))));
             this.lblCard1Title.Location = new System.Drawing.Point(15, 15);
             this.lblCard1Title.Name = "lblCard1Title";
-            this.lblCard1Title.Size = new System.Drawing.Size(140, 23);
+            this.lblCard1Title.Size = new System.Drawing.Size(114, 19);
             this.lblCard1Title.TabIndex = 1;
             this.lblCard1Title.Text = "TOTAL REVENUE";
             // 
@@ -164,7 +164,7 @@
             this.lblCard2Value.ForeColor = System.Drawing.Color.White;
             this.lblCard2Value.Location = new System.Drawing.Point(15, 45);
             this.lblCard2Value.Name = "lblCard2Value";
-            this.lblCard2Value.Size = new System.Drawing.Size(81, 62);
+            this.lblCard2Value.Size = new System.Drawing.Size(66, 51);
             this.lblCard2Value.TabIndex = 0;
             this.lblCard2Value.Text = "24";
             // 
@@ -175,7 +175,7 @@
             this.lblCard2Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(154)))), ((int)(((byte)(77)))));
             this.lblCard2Title.Location = new System.Drawing.Point(15, 15);
             this.lblCard2Title.Name = "lblCard2Title";
-            this.lblCard2Title.Size = new System.Drawing.Size(157, 23);
+            this.lblCard2Title.Size = new System.Drawing.Size(129, 19);
             this.lblCard2Title.TabIndex = 1;
             this.lblCard2Title.Text = "PENDING ORDERS";
             // 
@@ -196,7 +196,7 @@
             this.lblCard3Value.ForeColor = System.Drawing.Color.White;
             this.lblCard3Value.Location = new System.Drawing.Point(10, 45);
             this.lblCard3Value.Name = "lblCard3Value";
-            this.lblCard3Value.Size = new System.Drawing.Size(149, 54);
+            this.lblCard3Value.Size = new System.Drawing.Size(119, 45);
             this.lblCard3Value.TabIndex = 0;
             this.lblCard3Value.Text = "₹7,275";
             // 
@@ -207,7 +207,7 @@
             this.lblCard3Title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(91)))));
             this.lblCard3Title.Location = new System.Drawing.Point(15, 15);
             this.lblCard3Title.Name = "lblCard3Title";
-            this.lblCard3Title.Size = new System.Drawing.Size(162, 23);
+            this.lblCard3Title.Size = new System.Drawing.Size(133, 19);
             this.lblCard3Title.TabIndex = 1;
             this.lblCard3Title.Text = "CSR IMPACT FUND";
             // 
@@ -216,7 +216,7 @@
             this.lstRecentOrders.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lstRecentOrders.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lstRecentOrders.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.lstRecentOrders.ItemHeight = 23;
+            this.lstRecentOrders.ItemHeight = 17;
             this.lstRecentOrders.Items.AddRange(new object[] {
             "• Madeena Hotel: 500x 500ml Bottles",
             "• Payment Rcvd: Al Filfilah - ₹4,500",
@@ -225,7 +225,7 @@
             "• Design Approved: ID #42"});
             this.lstRecentOrders.Location = new System.Drawing.Point(377, 211);
             this.lstRecentOrders.Name = "lstRecentOrders";
-            this.lstRecentOrders.Size = new System.Drawing.Size(320, 232);
+            this.lstRecentOrders.Size = new System.Drawing.Size(320, 223);
             this.lstRecentOrders.TabIndex = 3;
             // 
             // lblRecentOrdersTitle
@@ -235,7 +235,7 @@
             this.lblRecentOrdersTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(91)))));
             this.lblRecentOrdersTitle.Location = new System.Drawing.Point(372, 171);
             this.lblRecentOrdersTitle.Name = "lblRecentOrdersTitle";
-            this.lblRecentOrdersTitle.Size = new System.Drawing.Size(278, 28);
+            this.lblRecentOrdersTitle.Size = new System.Drawing.Size(221, 21);
             this.lblRecentOrdersTitle.TabIndex = 2;
             this.lblRecentOrdersTitle.Text = "📈 Recent Business Activity";
             // 
@@ -244,7 +244,7 @@
             this.lstSecurityLog.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lstSecurityLog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lstSecurityLog.Font = new System.Drawing.Font("Consolas", 9F);
-            this.lstSecurityLog.ItemHeight = 18;
+            this.lstSecurityLog.ItemHeight = 14;
             this.lstSecurityLog.Items.AddRange(new object[] {
             "[SYS] User Admin logged in.",
             "[SEC] AES-256 Auth initialized.",
@@ -253,7 +253,7 @@
             "[SEC] DB connection secure."});
             this.lstSecurityLog.Location = new System.Drawing.Point(15, 211);
             this.lstSecurityLog.Name = "lstSecurityLog";
-            this.lstSecurityLog.Size = new System.Drawing.Size(320, 236);
+            this.lstSecurityLog.Size = new System.Drawing.Size(320, 226);
             this.lstSecurityLog.TabIndex = 1;
             // 
             // lblLogTitle
@@ -263,7 +263,7 @@
             this.lblLogTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(35)))), ((int)(((byte)(91)))));
             this.lblLogTitle.Location = new System.Drawing.Point(10, 171);
             this.lblLogTitle.Name = "lblLogTitle";
-            this.lblLogTitle.Size = new System.Drawing.Size(265, 28);
+            this.lblLogTitle.Size = new System.Drawing.Size(212, 21);
             this.lblLogTitle.TabIndex = 0;
             this.lblLogTitle.Text = "🔒 Live Security Audit Log";
             // 
@@ -285,7 +285,7 @@
             // 
             this.panel2.Location = new System.Drawing.Point(226, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(722, 526);
+            this.panel2.Size = new System.Drawing.Size(0, 0);
             this.panel2.TabIndex = 7;
             this.panel2.Visible = false;
             // 
@@ -299,6 +299,7 @@
             this.Name = "AdminDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Dashboard";
+            this.Load += new System.EventHandler(this.AdminDashboard_Load);
             this.pnlSidebar.ResumeLayout(false);
             this.pnlSidebar.PerformLayout();
             this.pnlCard1.ResumeLayout(false);
