@@ -119,9 +119,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BottleStory.Properties.Resources.WhatsApp_Image_2026_02_26_at_12_29_27_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(139, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(111, -15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(271, 180);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -135,7 +135,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

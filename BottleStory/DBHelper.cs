@@ -27,5 +27,25 @@ namespace StudentInfoSystem {
                 }
             }
         }
+
+        public static string signup(string username, string password) {
+            string sqlQuery = "SELECT username, passwordHash, accountType FROM users where username = @username";
+            using (SqlConnection conn = GetConnection()) {
+                using (SqlCommand cmd = new SqlCommand(sqlQuery, conn)) {
+                    cmd.Parameters.AddWithValue("@username", username);
+                    conn.Open();
+                    using (SqlDataReader rdr = cmd.ExecuteReader()) {
+                        if (rdr.Read()) {
+                            return "Username already exists!";
+                        }
+                        if (BCrypt.Net.BCrypt.EnhancedVerify(password, rdr.GetString(rdr.GetOrdinal("passwordHash")))) {
+                            return rdr.GetString(rdr.GetOrdinal("accountType"));
+                        } else {
+                            return "Incorrect password!";
+                        }
+                    }
+                }
+            }
+        }
     }
 }
